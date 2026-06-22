@@ -599,3 +599,25 @@ footer a:hover{
 }
 
 }
+@media(max-width:768px){
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 20px;
+}
+
+.menu-toggle{
+    display:block;
+    position:absolute;
+    right:20px;
+    top:35px;
+    font-size:32px;
+}
+
+#nav-links{
+    display:none;
+}
+
+}
