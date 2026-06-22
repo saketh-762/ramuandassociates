@@ -112,16 +112,23 @@ nav ul li a{
 }
 
 .service-box{
-    width:250px;
+
     background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-    transition:0.3s;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
 }
 
 .service-box:hover{
-    transform:translateY(-8px);
+
+    transform:
+    translateY(-10px);
 }
 
 .contact{
