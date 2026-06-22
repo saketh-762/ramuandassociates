@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ramuandassociates.vercel.app/sitemap.xml
