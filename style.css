@@ -512,3 +512,33 @@ footer a:hover{
     text-align:center;
     padding:20px;
 }
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:white;
+    cursor:pointer;
+}
+
+@media(max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    #nav-links{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+        margin-top:15px;
+    }
+
+    #nav-links.show{
+        display:flex;
+    }
+
+    nav{
+        flex-wrap:wrap;
+    }
+
+}
