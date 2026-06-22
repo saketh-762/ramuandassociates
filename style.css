@@ -303,3 +303,25 @@ nav{
 *{
     font-family:'Poppins',sans-serif;
 }
+.why-us{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+    padding:80px;
+}
+
+.why-card{
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+}
+
