@@ -331,4 +331,59 @@ nav{
     box-shadow:
     0 10px 30px rgba(0,0,0,.08);
 }
+.page-hero{
+    background:#0A2540;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
 
+.page-hero h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.page-hero p{
+    font-size:20px;
+}
+
+.about-page{
+    max-width:1000px;
+    margin:auto;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.about-page h2{
+    color:#0A2540;
+    margin-bottom:25px;
+}
+
+.about-page p{
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    background:#0A2540;
+    color:white;
+    padding:70px 20px;
+}
+
+.stat-box{
+    text-align:center;
+}
+
+.stat-box h2{
+    font-size:45px;
+    color:#D4AF37;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
