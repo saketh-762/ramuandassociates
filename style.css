@@ -161,6 +161,7 @@ nav ul li a{
     padding:15px;
     border-radius:50px;
     text-decoration:none;
+    z-index: 9999;
 }
 footer{
     background:#111;
@@ -687,4 +688,12 @@ nav{
     top:35px;
 }
 
+}
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
 }
