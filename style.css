@@ -483,3 +483,7 @@ footer{
 .btn:hover{
     transform:translateY(-3px);
 }
+.active{
+    color:#D4AF37 !important;
+    font-weight:600;
+}
