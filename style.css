@@ -643,5 +643,8 @@ nav{
     right:20px;
     top:35px;
 }
-
+.logo img{
+    display:block;
+    margin:0;
+}
 }
