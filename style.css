@@ -487,3 +487,28 @@ footer{
     color:#D4AF37 !important;
     font-weight:600;
 }
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+    padding:40px;
+}
+
+footer{
+    background:#081c34;
+    color:white;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#D4AF37;
+}
+
+.copyright{
+    text-align:center;
+    padding:20px;
+}
