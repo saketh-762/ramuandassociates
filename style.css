@@ -387,3 +387,26 @@ footer{
     text-align:center;
     padding:40px;
 }
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    padding:80px 40px;
+}
+
+.service-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+}
+
+.service-card h3{
+    color:#0A2540;
+    margin-bottom:15px;
+}
