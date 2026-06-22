@@ -542,3 +542,60 @@ footer a:hover{
     }
 
 }
+#sidebar{
+    position:fixed;
+    top:0;
+    left:-260px;
+    width:250px;
+    height:100%;
+    background:#0A2540;
+    z-index:2000;
+
+    display:flex;
+    flex-direction:column;
+
+    padding-top:80px;
+
+    transition:0.3s;
+}
+
+#sidebar a{
+    color:white;
+    text-decoration:none;
+    padding:18px 30px;
+    font-size:18px;
+}
+
+#sidebar a:hover{
+    background:#D4AF37;
+    color:#0A2540;
+}
+
+#sidebar.active{
+    left:0;
+}
+
+#close-btn{
+    position:absolute;
+    top:20px;
+    right:20px;
+
+    color:white;
+    font-size:35px;
+    cursor:pointer;
+}
+.menu-toggle{
+    display:none;
+}
+
+@media(max-width:768px){
+
+.menu-toggle{
+    display:block;
+}
+
+#nav-links{
+    display:none;
+}
+
+}
