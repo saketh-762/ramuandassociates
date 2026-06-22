@@ -621,3 +621,27 @@ nav{
 }
 
 }
+@media(max-width:768px){
+
+nav{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding:15px 20px;
+}
+
+.logo{
+    margin:0;
+}
+
+.logo img{
+    width:120px;
+}
+
+.menu-toggle{
+    position:absolute;
+    right:20px;
+    top:35px;
+}
+
+}
