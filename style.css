@@ -710,3 +710,34 @@ html, body {
     z-index:9999;
     box-shadow:0 4px 12px rgba(0,0,0,.2);
 }
+.reviews{
+padding:80px 20px;
+text-align:center;
+background:#f8f9fa;
+}
+
+.review-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.review-card{
+background:white;
+padding:25px;
+border-radius:15px;
+max-width:320px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.review-card:hover{
+transform:translateY(-5px);
+}
+
+.review-card h4{
+margin-top:15px;
+color:#0a2540;
+}
