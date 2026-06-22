@@ -648,3 +648,22 @@ nav{
     margin:0;
 }
 }
+@media(max-width:768px){
+
+nav{
+    display:flex;
+    justify-content:flex-start !important;
+    align-items:center;
+    position:relative;
+}
+
+.logo{
+    margin-left:10px !important;
+}
+
+.logo img{
+    width:110px;
+    display:block;
+}
+
+}
