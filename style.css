@@ -70,26 +70,40 @@ nav ul li a{
 }
 
 .hero h1{
-    font-size:45px;
+    font-size:64px;
+    font-weight:700;
 }
 
 .hero h2{
-    color:white;
+    color:var(--gold);
+    margin-top:10px;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:20px;
 }
 
 .hero button{
-    background:#0b2c52;
-    color:white;
-    padding:12px 25px;
+    background:var(--gold);
+
+    color:var(--navy);
+
+    padding:14px 30px;
+
     border:none;
-    border-radius:30px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
     cursor:pointer;
-    margin:10px;
-    transition:0.3s;
+
+    transition:.3s;
 }
 
 .hero button:hover{
-    background:#174a85;
+    transform:translateY(-3px);
 }
 
 .services{
