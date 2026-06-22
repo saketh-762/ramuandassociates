@@ -1,11 +1,20 @@
 const menuToggle =
 document.querySelector(".menu-toggle");
 
-const navLinks =
-document.querySelector("#nav-links");
+const sidebar =
+document.querySelector("#sidebar");
+
+const closeBtn =
+document.querySelector("#close-btn");
 
 menuToggle.addEventListener("click", () => {
 
-    navLinks.classList.toggle("show");
+    sidebar.classList.add("active");
+
+});
+
+closeBtn.addEventListener("click", () => {
+
+    sidebar.classList.remove("active");
 
 });
