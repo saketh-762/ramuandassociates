@@ -152,16 +152,25 @@ nav ul li a{
     border-radius:10px;
     box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
-.whatsapp{
+.whatsapp-btn{
     position:fixed;
-    bottom:20px;
     right:20px;
-    background:green;
-    color:white;
-    padding:15px;
-    border-radius:50px;
+    bottom:20px;
+
+    width:150px;
+    height:54px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#25D366;
+    color:#fff;
     text-decoration:none;
-    z-index: 9999;
+    border-radius:50px;
+    font-weight:600;
+    z-index:999;
+    box-shadow:0 4px 15px rgba(0,0,0,.25);
 }
 footer{
     background:#111;
@@ -699,16 +708,23 @@ html, body {
 }
 .call-btn{
     position:fixed;
-    bottom:90px;
     right:20px;
+    bottom:90px;
+
+    width:150px;
+    height:54px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
     background:#0d6efd;
-    color:white;
-    padding:14px 20px;
-    border-radius:50px;
+    color:#fff;
     text-decoration:none;
+    border-radius:50px;
     font-weight:600;
-    z-index:9999;
-    box-shadow:0 4px 12px rgba(0,0,0,.2);
+    z-index:999;
+    box-shadow:0 4px 15px rgba(0,0,0,.25);
 }
 .reviews{
 padding:80px 20px;
